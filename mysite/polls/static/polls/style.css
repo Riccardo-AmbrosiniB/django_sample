@@ -1,0 +1,12 @@
+li a {
+    color: green;
+}
+
+body {
+
+    background: white url("images/background.jpg") no-repeat center center;
+    background-size:contain;
+    height: 100%;
+    width: 100%;
+    overflow: hidden; /* Optional: To prevent scrollbars */
+}
