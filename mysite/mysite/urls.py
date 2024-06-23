@@ -22,7 +22,7 @@ from . import settings
 
 urlpatterns = [
     path("", lambda request: redirect("polls/", permanent=True)),
-    path("polls/", include("polls.urls")),
+    path("polls/", include("django_polls.urls")),
     path("admin/", admin.site.urls),
     # path("__debug__/", include("debug_toolbar.urls")),
 ]
